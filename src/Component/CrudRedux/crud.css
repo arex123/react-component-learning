@@ -1,0 +1,29 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+
+.displayUsers{
+    
+    background-color: aqua;
+    min-height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.displayUsers div{
+    /* background-color: black; */
+    /* border-top: 1px black solid; */
+    height:50%;
+    width: 100%;
+}
+
+.oneuser{
+    border: 1px red solid;
+    margin: 10px;
+}

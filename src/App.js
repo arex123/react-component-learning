@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import SideBar from './Component/Sidebar';
+import SideBar from './Component/Sidebar/Sidebar';
+import Crud from './Component/CrudRedux/crud';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <SideBar/>
+      {/* <SideBar/> */}
+      <Crud/>
     </div>
   );
 }
